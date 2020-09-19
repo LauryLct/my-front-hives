@@ -32,9 +32,11 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'Home',
+  computed: {
+    hiveList() {
+      return this.getters.home
+    }
   }
 }
 </script>

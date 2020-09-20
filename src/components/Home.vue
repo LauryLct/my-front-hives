@@ -25,7 +25,7 @@
                 class='form-control'
                 id='exampleInputPassword1'
                 v-model='newHive.weight'
-                placeholder='Ajoutez le poids de votre ruche'>
+                placeholder='Ajoutez le poids de votre ruche en kg'>
         </div>
         <button type='submit' class='btn btn-primary'>Ajoute ta ruche</button>
       </form>

@@ -10,7 +10,7 @@
       </div>
       <div class='hive-weight h4'>
         <h3>Le poids de la ruche:</h3>
-        {{hive.weight}}
+        <p>{{hive.weight}} Kg</p>
       </div>
     </div>
   </div>
